@@ -4,14 +4,14 @@
 /**
  * _strstr - locates a substring
  * @haystack: string t compare
- * @needles: substring to compare
+ * @needle: substring to compare
  * Return: pointer to beginning of located substring,
  * otherwise NULL
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	for (; *haystack != '\0'; haystack ++)
+	for (; *haystack != '\0'; haystack++)
 	{
 	char *i = haystack;
 	char *j = needle;
